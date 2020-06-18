@@ -8,7 +8,7 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE TABLE [RP].[TBL_ML_LearnerArguments](
+CREATE TABLE [RP].[TBL_LearnerArgument](
 	[learnerName] [nvarchar](255) NULL,
 	[argumentInput] [nvarchar](255) NULL
 ) ON [PRIMARY]
