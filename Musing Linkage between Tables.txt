@@ -1,0 +1,6 @@
+I don't fully remember how I selected the subset from TBL PLAYS PLAYS2 to get TBL ML RP
+The fields given in the Create TBL_ML_RP sql file are correct, but I don't recall precisely what devilry I invoked to select the actual records
+I remember wanting about 64K records for the purpose  I was using it for at the time, and whatever criteria I ultimately settled on ended up yielding about 65K, so that's what I went with
+It's only just now occurred to me it may be something like dates in between Februrary 4 2008 and November 25 2012 (for unnervingly personal reasons). I don't know
+In any case, the attached Translation TBL_NFLPLAYS_Plays2 and TBL_ML_RP script is supposed to replicate it using some joins, but it's ever so slightly off
+If I ever get around to it, I'll come back and fully ascertain what exactly the linkage between the two tables is 
